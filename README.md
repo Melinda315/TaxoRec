@@ -1,5 +1,5 @@
 # TaxoRec
-This repository contains a implementation of our "Enhancing Recommendation with Automated TagTaxonomy Construction in Hyperbolic Space".
+This repository contains a implementation of our "Enhancing Recommendation with Automated TagTaxonomy Construction in Hyperbolic Space" accepted by ICDE 2022.
 
 ## Environment Setup
 1. Pytorch 1.8.1
@@ -36,4 +36,16 @@ code to implement Hyperbolic gcn (```encoders.py, hyp_layers.py```)
 
 ```
 python run.py
+```
+
+### Citation
+If you find the code useful, please consider citing the following paper:
+```
+@inproceedings{tan2022enhancing,
+  title={Enhancing Recommendation with Automated TagTaxonomy Construction in Hyperbolic Space},
+  author={Tan, Yanchao and Yang, Carl and Wei, Xiangyu and Chen, Chaochao and Li, Longfei and Zheng, Xiaolin},
+  booktitle={2022 IEEE 38th International Conference on Data Engineering (ICDE)},
+  year={2022},
+  organization={IEEE}
+}
 ```
